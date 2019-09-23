@@ -8,6 +8,7 @@ class Author
   def initialize(name)
     @name = name
     @@all << self
+     @@post_count += 1
   end
   
   def self.all
