@@ -1,7 +1,6 @@
 class Author
   attr_accessor :name
   attr_reader :posts
- 
   @@all = []
   @@post_count = 0
   
