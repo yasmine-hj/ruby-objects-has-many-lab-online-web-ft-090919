@@ -13,8 +13,11 @@ class Author
     @@all
   end
   
+  def add_post(post)
+    post.author << self
+  
   def posts
-    Posts.all.select {|posts| posts.author == self}
+    Posts.all.select {|post| post.author == self}
   end
   
 end
