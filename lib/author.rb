@@ -1,6 +1,6 @@
 def Author
   attr_accessor :name
-  attr_reader :posts
+  # attr_reader :posts
  
   # @@all = []
   
